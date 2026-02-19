@@ -1,6 +1,6 @@
 # BLE Heart Rate → OSC Bridge (Reference Implementation)
 
-BLE対応心拍計から心拍数を取得し、OSC経由で送信するPythonコードです。
+BLE対応心拍計から心拍数を取得し、OSC経由で送信するPythonコードです。  
 本リポジトリは，心拍OSC連携の一例として公開しています。  
 改変・再利用・発展を歓迎します。
 
