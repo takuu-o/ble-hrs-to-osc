@@ -10,7 +10,7 @@ BLE対応心拍計から心拍数を取得し、OSC経由で送信するPython�
 
 - BLE Heart Rate Service (0x180D) に対応
 - 心拍数を取得しOSCで送信
-- VRChatとの連携を想定
+- VRChatでのOSC連携を想定
 - MIT License
 
 ---
@@ -45,10 +45,10 @@ python hrs_to_osc.py
 
 デフォルトで以下のOSCパラメータを送信します：
 
-- `heartbeat_value` : 取得した心拍数（BPM）
-- `heartbeat_waittime` : ギミック用に正規化した値（計算例）
-
-※ 正規化計算部分は一例です。用途に応じて自由に書き換えてください。
+OSC Address                     | Type  | Description
+--------------------------------|-------|----------------------------
+/avatar/parameters/taklabs/heartbeat_value     | Int   | Heart Rate in BPM
+/avatar/parameters/taklabs/heartbeat_waittime  | Float | Normalized value (0.0-1.0)
 
 ---
 
