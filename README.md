@@ -56,8 +56,8 @@ OSC Address                     | Type  | Description
 
 `config.json` で以下を設定できます：
 
-- OSC送信先IP
-- ポート番号
+- OSC送信先IP/ポート番号
+- OSC送信アドレス
 - 再接続設定
 - スキャン間隔など
 
