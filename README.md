@@ -84,7 +84,6 @@ Copyright (c) 2026 takuu-o
 
 ## Notes
 
-- 心拍データは保存しません（リアルタイム送信のみ）
 - BLE動作はOS・デバイスに依存します
 - 動作確認環境：
   - OS: Windows 11，
